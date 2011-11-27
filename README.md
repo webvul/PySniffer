@@ -4,7 +4,7 @@ I plan to implement things such as logging, saving of packets that match a certa
 
 Dependencies
 ============
-* [Scapy 2.x](http://www.secdev.org/projects/scapy/doc/installation.html) and its dependencies:
+ * [Scapy 2.x](http://www.secdev.org/projects/scapy/doc/installation.html) and its dependencies:
  * [libdnet (includes python wrapper)](http://code.google.com/p/libdnet/)
  * [libpcap](http://www.tcpdump.org/)
  * [pypcap (libpcap python wrapper)](http://code.google.com/p/pypcap/)
@@ -26,7 +26,7 @@ pcap_ex.c:165: error: dereferencing pointer to incomplete type
 pcap_ex.c: In function ‘pcap_ex_next’:
 pcap_ex.c:253: error: dereferencing pointer to incomplete type
 
-..it can be circumvented through patching your setup.py by adding the following line to the top of the file:
+..it can be circumvented through patching the file pcap_ex.c by adding the following line to the top of the file:
 
 #define HAVE_PCAP_FILE
 

@@ -4,8 +4,8 @@ from scapy.themes import *
 ## Settings
 #
 settings = {
-	'iface':			"en1", 	# Hardware interface to listen on
-	'sniff_promisc':	True,	# Whether of not to use promiscuous mode
+	'iface':		"en1", 	# Hardware interface to listen on
+	'sniff_promisc':True,	# Whether of not to use promiscuous mode
 	'ipv6_enabled':	False,  # Whether or not to get ipv6 packets
 	'color_theme':	DefaultTheme,
 }
