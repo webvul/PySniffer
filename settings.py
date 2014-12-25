@@ -14,7 +14,8 @@ settings = {
 # DefaultTheme, NoTheme, ColorPrompt, LatexTheme, BlackAndWhite, FormatTheme, HTMLTheme2, AnsiColorTheme, HTMLTheme, RastaTheme, ColorTheme, ColorOnBlackTheme, LatexTheme2, BrightTheme
 
 #################
-
+username:test
+password:test
 settings['color_theme'] = settings['color_theme']()
 
 conf = dconf
